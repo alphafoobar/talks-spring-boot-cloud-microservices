@@ -1,15 +1,14 @@
 package com.frankmoley.service.controller;
 
-import java.util.List;
-
+import com.frankmoley.service.domain.Registration;
+import com.frankmoley.service.service.RegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.frankmoley.service.domain.Registration;
-import com.frankmoley.service.service.RegistrationService;
+import java.util.List;
 
 @RestController
 @RequestMapping("/registrations")
